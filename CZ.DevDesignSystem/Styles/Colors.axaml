@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Styles xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <!-- Default (Light) -->
-    <Style Selector=":root">
-        <Style.Resources>
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.ThemeDictionaries>
+        <!-- Light Theme -->
+        <ResourceDictionary x:Key="Light">
             <!-- App Hintergrund (Light): leicht off-white -->
             <SolidColorBrush x:Key="AppBackgroundBrush" Color="#FFF7F8FA"/>
             <!-- Akzentfarbe, falls gebraucht -->
             <SolidColorBrush x:Key="AccentBrush" Color="#5B8DEF"/>
-        </Style.Resources>
-    </Style>
+        </ResourceDictionary>
 
-    <!-- Dark-Override -->
-    <Style Selector=":root:dark">
-        <Style.Resources>
+        <!-- Dark Theme -->
+        <ResourceDictionary x:Key="Dark">
             <!-- App Hintergrund (Dark): softer als reines Schwarz -->
             <SolidColorBrush x:Key="AppBackgroundBrush" Color="#111318"/>
             <SolidColorBrush x:Key="AccentBrush" Color="#7AA2FF"/>
-        </Style.Resources>
-    </Style>
-</Styles>
+        </ResourceDictionary>
+    </ResourceDictionary.ThemeDictionaries>
+</ResourceDictionary>

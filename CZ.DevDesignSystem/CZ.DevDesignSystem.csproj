@@ -7,7 +7,7 @@
         <!-- NuGet -->
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>CZ.DevDesignSystem</PackageId>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Authors>Christoph Noe</Authors>
         <Description>Minimal Avalonia design system (light/dark, app background, sized buttons).</Description>
         <PackageReadmeFile>README.md</PackageReadmeFile>

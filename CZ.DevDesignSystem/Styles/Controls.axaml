@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Styles xmlns="https://github.com/avaloniaui">
-    <StyleInclude Source="avares://CZ.DevDesignSystem/Styles/Colors.axaml"/>
+    <Styles.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceInclude Source="avares://CZ.DevDesignSystem/Styles/Colors.axaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Styles.Resources>
+
     <StyleInclude Source="avares://CZ.DevDesignSystem/Styles/Base.axaml"/>
     <StyleInclude Source="avares://CZ.DevDesignSystem/Styles/Buttons.axaml"/>
 </Styles>
