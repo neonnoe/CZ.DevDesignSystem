@@ -9,5 +9,6 @@
     </Styles.Resources>
 
     <StyleInclude Source="avares://CZ.DevDesignSystem/Styles/Base.axaml"/>
+    <StyleInclude Source="avares://CZ.DevDesignSystem/Styles/Typography.axaml"/>
     <StyleInclude Source="avares://CZ.DevDesignSystem/Styles/Buttons.axaml"/>
 </Styles>

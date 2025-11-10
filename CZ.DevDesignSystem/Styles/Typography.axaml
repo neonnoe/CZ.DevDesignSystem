@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Styles xmlns="https://github.com/avaloniaui">
+    <!-- Base Typography: 14px base with 1.125 scaling factor -->
+    
+    <!-- Heading 1 -->
+    <Style Selector="TextBlock.h1">
+        <Setter Property="FontSize" Value="28.38"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+    <!-- Heading 2 -->
+    <Style Selector="TextBlock.h2">
+        <Setter Property="FontSize" Value="25.23"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+    <!-- Heading 3 -->
+    <Style Selector="TextBlock.h3">
+        <Setter Property="FontSize" Value="22.43"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+    <!-- Heading 4 -->
+    <Style Selector="TextBlock.h4">
+        <Setter Property="FontSize" Value="19.93"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <!-- Heading 5 -->
+    <Style Selector="TextBlock.h5">
+        <Setter Property="FontSize" Value="17.72"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <!-- Heading 6 -->
+    <Style Selector="TextBlock.h6">
+        <Setter Property="FontSize" Value="15.75"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <!-- Paragraph (base) -->
+    <Style Selector="TextBlock.p">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="Normal"/>
+    </Style>
+
+    <!-- Small text -->
+    <Style Selector="TextBlock.small">
+        <Setter Property="FontSize" Value="12.44"/>
+        <Setter Property="FontWeight" Value="Normal"/>
+    </Style>
+</Styles>
