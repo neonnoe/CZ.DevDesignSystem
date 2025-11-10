@@ -4,6 +4,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceInclude Source="avares://CZ.DevDesignSystem/Styles/Colors.axaml"/>
+                <ResourceInclude Source="avares://CZ.DevDesignSystem/Styles/Fonts.axaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Styles.Resources>

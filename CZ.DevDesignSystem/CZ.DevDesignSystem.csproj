@@ -7,7 +7,7 @@
         <!-- NuGet -->
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>CZ.DevDesignSystem</PackageId>
-        <Version>0.1.3</Version>
+        <Version>0.1.7</Version>
         <Authors>Christoph Noe</Authors>
         <Description>Minimal Avalonia design system (light/dark, app background, sized buttons).</Description>
         <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -33,7 +33,13 @@
     <ItemGroup>
         <None Include="**\*.axaml" Pack="true" PackagePath="contentFiles/any/any/" />
         <None Include="**\*.png" Pack="true" PackagePath="contentFiles/any/any/" />
+        <None Include="**\*.ttf" Pack="true" PackagePath="contentFiles/any/any/" />
         <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <!-- Font files as AvaloniaResource -->
+    <ItemGroup>
+        <AvaloniaResource Include="Assets\Fonts\**\*.ttf" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Packages\" />
