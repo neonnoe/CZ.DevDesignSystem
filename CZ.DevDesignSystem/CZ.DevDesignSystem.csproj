@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+
+        <!-- NuGet -->
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>CZ.DevDesignSystem</PackageId>
+        <Version>0.1.0</Version>
+        <Authors>Christoph Noe</Authors>
+        <Description>Minimal Avalonia design system (light/dark, app background, sized buttons).</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/neonnoe/CZ.DevDesignSystem</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <PackageTags>avalonia;design-system;ui;theme</PackageTags>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.*" />
+        <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="11.*" />
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.*" />
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.*" PrivateAssets="All" />
+    </ItemGroup>
+
+    <!-- Packe XAML/Assets mit ein -->
+    <ItemGroup>
+        <None Include="**\*.axaml" Pack="true" PackagePath="contentFiles/any/any/" />
+        <None Include="**\*.png" Pack="true" PackagePath="contentFiles/any/any/" />
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>
