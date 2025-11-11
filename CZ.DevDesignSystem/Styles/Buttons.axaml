@@ -5,7 +5,7 @@
         <Setter Property="Padding" Value="14,8"/>
         <Setter Property="MinHeight" Value="36"/>
         <Setter Property="FontSize" Value="14"/>
-        <Setter Property="CornerRadius" Value="8"/>
+        <Setter Property="CornerRadius" Value="4"/>
         <Setter Property="HorizontalContentAlignment" Value="Center"/>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
     </Style>
@@ -15,7 +15,7 @@
         <Setter Property="Padding" Value="10,6"/>
         <Setter Property="MinHeight" Value="28"/>
         <Setter Property="FontSize" Value="12"/>
-        <Setter Property="CornerRadius" Value="6"/>
+        <Setter Property="CornerRadius" Value="2"/>
     </Style>
 
     <!-- Large -->
@@ -23,6 +23,6 @@
         <Setter Property="Padding" Value="18,12"/>
         <Setter Property="MinHeight" Value="48"/>
         <Setter Property="FontSize" Value="16"/>
-        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="CornerRadius" Value="6"/>
     </Style>
 </Styles>

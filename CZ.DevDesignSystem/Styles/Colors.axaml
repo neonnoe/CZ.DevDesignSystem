@@ -4,16 +4,15 @@
         <!-- Light Theme -->
         <ResourceDictionary x:Key="Light">
             <!-- App Hintergrund (Light): leicht off-white -->
-            <SolidColorBrush x:Key="AppBackgroundBrush" Color="#FFF7F8FA"/>
-            <!-- Akzentfarbe, falls gebraucht -->
-            <SolidColorBrush x:Key="AccentBrush" Color="#5B8DEF"/>
+            <SolidColorBrush x:Key="AppBackgroundBrush" Color="#FCFCFF"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="#0050F2" />
         </ResourceDictionary>
 
         <!-- Dark Theme -->
         <ResourceDictionary x:Key="Dark">
             <!-- App Hintergrund (Dark): softer als reines Schwarz -->
-            <SolidColorBrush x:Key="AppBackgroundBrush" Color="#111318"/>
-            <SolidColorBrush x:Key="AccentBrush" Color="#7AA2FF"/>
+            <SolidColorBrush x:Key="AppBackgroundBrush" Color="#202222"/>
+            <SolidColorBrush x:Key="AccentBrush" Color="#0C59FF" />
         </ResourceDictionary>
     </ResourceDictionary.ThemeDictionaries>
 </ResourceDictionary>

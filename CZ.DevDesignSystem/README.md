@@ -9,9 +9,10 @@ It includes theme-aware colors (light / dark), base styles for windows and butto
 
 ## ✨ Features
 
-- 🌓 **Light / Dark mode** — automatic or programmatic theme switching
+- 🌓 **Light / Dark mode** — automatic or programmatic theme switching with optimized Fluent color palettes
 - 🎨 **App background brushes** — softer tones for better contrast perception
-- 🔘 **Buttons** in two sizes (`regular`, `small`)
+- 🔘 **Buttons** in three sizes (`small`, `regular`, `large`)
+- ✍️ **Typography system** — Inter font with 8 predefined styles (h1-h6, p, small) using 1.125 scaling factor
 - 🧱 **Fluent-based foundation** — keeps native Avalonia Fluent controls compatible
 - 📦 **NuGet package ready** — easy to integrate into other projects
 
@@ -99,4 +100,40 @@ public class MainWindowViewModel : ViewModelBase
         });
     }
 }
+```
+
+---
+
+## 🎨 Customization
+
+### Typography
+
+The design system uses the **Inter** font family with a modular type scale based on a 1.125 ratio (14px base):
+
+| Style | Class | Font Size | Font Weight |
+|-------|-------|-----------|-------------|
+| Heading 1 | `.h1` | 28.38px | Bold |
+| Heading 2 | `.h2` | 25.23px | Bold |
+| Heading 3 | `.h3` | 22.43px | Bold |
+| Heading 4 | `.h4` | 19.93px | SemiBold |
+| Heading 5 | `.h5` | 17.72px | SemiBold |
+| Heading 6 | `.h6` | 15.75px | SemiBold |
+| Paragraph | `.p` | 14px | Normal |
+| Small | `.small` | 12.44px | Normal |
+
+Usage example:
+```xml
+<TextBlock Text="Main Title" Classes="h1" />
+<TextBlock Text="Body text" Classes="p" />
+<TextBlock Text="Fine print" Classes="small" />
+```
+
+### Button Sizes
+
+Three button sizes are available via CSS classes:
+
+```xml
+<Button Content="Small" Classes="small" />
+<Button Content="Regular" /> <!-- default -->
+<Button Content="Large" Classes="large" />
 ```
